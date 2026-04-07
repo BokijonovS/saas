@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block head_title %} aa - {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+    {% include "snippets/welcome-user.html" %}
+    <br>
+    total visits - {{ total_visits }}
+    <br>
+    current visits - {{ path_visits }}
+
+
+{% endblock content %}
