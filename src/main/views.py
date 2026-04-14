@@ -37,7 +37,7 @@ def old_homepage(request, *args, **kwargs):
     <title>Document</title>
 </head>
 <body>
-<h1>{title} 1 world</h1>
+<h1>{title} 1 world</h1> 
 
 </body>
 </html>
