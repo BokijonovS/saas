@@ -27,8 +27,7 @@ SECRET_KEY = "django-insecure-fg)#tp4kt77h(lci=3i$ssd2^vr(3sh5lau=x#1#(svfzf!9v&
 # DEBUG = str(os.environ.get("DJANGO_DEBUG")).lower() == "true"
 from decouple import config
 
-DEBUG=config("DJANGO_DEBUG")
-
+DEBUG = config("DJANGO_DEBUG", default=False, cast=bool)
 print("debug", DEBUG, type(DEBUG))
 
 ALLOWED_HOSTS = [
