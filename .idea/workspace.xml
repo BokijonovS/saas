@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a8f9276-e0fe-4ccf-b6dd-dcc3dddf5bfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/commando/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commando/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commando/management/commands/hello_world.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commando/management/commands/vendor_pull.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/base/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/base/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/nav/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cfehome/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commando/management/commands/vendor_pull.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/commando/management/commands/vendor_pull.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,7 @@
       <updated>1776944267185</updated>
       <workItem from="1776944268958" duration="8707000" />
       <workItem from="1777023173588" duration="9000" />
-      <workItem from="1777291452658" duration="8839000" />
+      <workItem from="1777291452658" duration="10023000" />
     </task>
     <servers />
   </component>
