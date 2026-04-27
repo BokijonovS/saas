@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a8f9276-e0fe-4ccf-b6dd-dcc3dddf5bfa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cfehome/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +103,7 @@
       <updated>1776944267185</updated>
       <workItem from="1776944268958" duration="8707000" />
       <workItem from="1777023173588" duration="9000" />
-      <workItem from="1777291452658" duration="744000" />
+      <workItem from="1777291452658" duration="2265000" />
     </task>
     <servers />
   </component>
