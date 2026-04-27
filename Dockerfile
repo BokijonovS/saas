@@ -11,6 +11,8 @@ ENV PATH=/opt/venv/bin:$PATH
 
 # Upgrade pip
 RUN pip install --upgrade pip
+RUN pip install gunicorn
+
 
 # Set Python-related environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
