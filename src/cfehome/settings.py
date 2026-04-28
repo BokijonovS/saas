@@ -13,8 +13,8 @@ import os
 from email.policy import default
 from pathlib import Path
 from typing import cast
-
 from decouple import config
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,11 +23,23 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-fg)#tp4kt77h(lci=3i$ssd2^vr(3sh5lau=x#1#(svfzf!9v&"
+SECRET_KEY = config("SECRET_KEY", default=None, cast=str)
+
+# email configurations
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST=config("EMAIL_HOST", default="smtp.gmail.com", cast=str)
+EMAIL_PORT=config("EMAIL_PORT", default=587, cast=int)
+EMAIL_HOST_USER=config("EMAIL_HOST_USER", default=None, cast=str)
+EMAIL_HOST_PASSWORD=config("EMAIL_HOST_PASSWORD", default=None, cast=str)
+EMAIL_USE_TLS=config("EMAIL_USE_TLS", default=True, cast=bool)
+EMAIL_USE_SSL=config("EMAIL_USE_SSL", default=False, cast=bool)
+
+ADMINS = [("John", "bokijonovs@gmail.com")]
+MANAGERS = ADMINS
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = str(os.environ.get("DJANGO_DEBUG")).lower() == "true"
-from decouple import config
 
 DEBUG = config("DJANGO_DEBUG", default=False, cast=bool)
 print("debug", DEBUG, type(DEBUG))
