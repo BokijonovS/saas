@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a8f9276-e0fe-4ccf-b6dd-dcc3dddf5bfa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cfehome/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commando/management/commands/hello_world.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "django.template.preview.state": "SHOW_EDITOR",
@@ -111,7 +110,8 @@
       <updated>1776944267185</updated>
       <workItem from="1776944268958" duration="8707000" />
       <workItem from="1777023173588" duration="9000" />
-      <workItem from="1777291452658" duration="17571000" />
+      <workItem from="1777291452658" duration="24886000" />
+      <workItem from="1777888617989" duration="88000" />
     </task>
     <servers />
   </component>
